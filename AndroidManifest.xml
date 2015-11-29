@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tutorialandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- android:name is the name of the activity's class -->
+        <!-- android:label is the text shown in the action bar -->
+        <activity
+            android:name=".Initial"
+            android:label="@string/app_name" >
+
+            <!-- intent-filter specifies the types of intents to which the activity responds -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- launcher adds an icon to the applications menu of the system -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+
+                <!-- actions respond to the activity specified by "android:main" -->
+                <action android:name="com.example.tutorialandroid.MAINACTIVITY" />
+                <!-- category contains additional info about the type of activity -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.tutorialandroid.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

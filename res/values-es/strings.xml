@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ajustes</string>
+    <string name="gameOverTitle">Fin del juego</string>
+    <string name="gameOverMessage">¿Quiere jugar otra partida?</string>
+    <string name="initialImage">Imagen inicial del juego</string>
+    <string name="aboutText">Acerca de</string>
+    <string name="sendMessageText">Enviar mensaje</string>
+    <string name="aboutMessage">Cha cha cha es un juego solitario
+en el que hemos de comer una a una las fichas
+saltando por encima de ellas, solo en vertical u
+horizontal, hacia la casilla adyacente que se
+encuentre vacía. El objetivo es dejar
+la última ficha en el centro del tablero, el
+lugar que comenzó libre.</string>
+    <string name="firstCategoryPrefTitle">Datos personales</string>
+    <string name="editTextPrefTitle">Nombre del jugador</string>
+    <string name="editTextPrefSummary">Pulse para teclear el nombre del jugador</string>
+    <string name="secondCategoryPrefTitle">Ajustes del juego</string>
+    <string name="listPrefTitle">Tipo de figura</string>
+    <string name="listPrefSummary">Pulse para mostrar la lista</string>
+    <string name="checBoxPrefTitle">Música de fondo</string>
+    <string name="checBoxPrefSummary">Marque si desea escuchar música</string>
+    <string name="listPrefDialogTitle">Elija la figura inicial</string>
+    <string name="preferencesText">Ajustes</string>
+
+</resources>

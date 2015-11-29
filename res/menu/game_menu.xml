@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/aboutText"/>
+    <item
+        android:id="@+id/sendMessage"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="@string/sendMessageText"/>
+    <item
+        android:title="@string/preferencesText"
+        android:id="@+id/preferences"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item
+        android:title="@string/searchText"
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/searchByNameText"
+                    android:checked="true"
+                    android:id="@+id/search_by_name"/>
+                <item
+                    android:id="@+id/search_by_birth_date"
+                    android:title="@string/searchByLastNameText"/>
+                <item
+                    android:id="@+id/search_by_last_name"
+                    android:title="@string/searchByLastNameText"/>
+            </group>
+        </menu>
+    </item>
+</menu>

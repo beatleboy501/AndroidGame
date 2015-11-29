@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jump The Peg</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="gameOverTitle">Game Over</string>
+	<string name="gameOverMessage">Would you like to play another game?</string>
+	<string name="initialImage">Jump the Peg</string>
+	<string name="sendMessageText">Send Message</string>
+	<string name="callString">Call</string>
+	<string name="aboutText">About</string>
+	<string name="action_settings">Settings</string>
+	<string name="searchText">Search</string>
+	<string name="searchByNameText">Search By Name</string>
+	<string name="searchByLastNameText">Search By Last Name</string>
+	<string name="aboutMessage">Jump the Peg is a single player game
+	    in which you must remove a peg by "jumping" another peg over
+	    it and into a empty hole. Only vertical and horizontal moves
+	    are allowed. The object is to leave the last peg in the middle
+	    of the pegboard - the only hole that started out empty. Good Luck!	    
+	    </string>
+	<string name="firstCategoryPrefTitle">Personal Info</string>
+	<string name="editTextPrefTitle">Player Name</string>
+	<string name="editTextPrefSummary">Press to view list</string>
+	<string name="checBoxPrefTitle">Background Music</string>
+	<string name="checBoxPrefSummary">Toggle Music On/Off</string>
+	<string name="listPrefDialogTitle">Pick starting figure</string>
+	<string name="preferencesText">Settings</string>	
+</resources>
