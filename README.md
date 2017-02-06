@@ -13,7 +13,6 @@ Jump the Peg
 
     The least number of pegs I've gotten down to is 4; can you beat my number?
   </div>
-  
-  ![Alt text](./android-game.jpg?raw=true "Jump the Peg")
-  
 </div>
+
+![Alt text](./android-game.jpg?raw=true "Jump the Peg")
