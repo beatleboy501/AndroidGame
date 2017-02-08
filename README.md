@@ -1,5 +1,4 @@
-# AndroidGame
-Jump the Peg
+# Jump the Peg
 
 Jump the peg is a game I created as part of an edX course called "Jugando con Android" - literally "Playing with Android"     in Spanish - offered by the Universidad Autonoma de Madrid.
 The target version is Android SDK 15.
